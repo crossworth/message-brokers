@@ -46,5 +46,7 @@ func main() {
 	)
 	if err != nil {
 		log.Fatalln("failed to publish a message", err)
+	} else {
+		log.Println("Message sent")
 	}
 }
